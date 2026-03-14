@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/arshiyask/ai-task-infra
+    repoURL: https://github.com/arshisk/ai-task-infra
     targetRevision: HEAD
     path: base
   destination:
