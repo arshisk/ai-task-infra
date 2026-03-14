@@ -21,7 +21,7 @@ spec:
         runAsGroup: 1000
       containers:
         - name: worker
-          image: arshiyask/ai-task-worker:latest
+          image: arshiyask/ai-task-worker:38159a129dbc4d8624d9f5a383a65c6b778e99e6
           envFrom:
             - configMapRef:
                 name: ai-task-config

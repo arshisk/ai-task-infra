@@ -22,7 +22,7 @@ spec:
         fsGroup: 1000
       containers:
         - name: backend
-          image: arshiyask/ai-task-backend:latest
+          image: arshiyask/ai-task-backend:38159a129dbc4d8624d9f5a383a65c6b778e99e6
           ports:
             - containerPort: 4000
               name: http

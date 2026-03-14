@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: arshiyask/ai-task-frontend:latest
+          image: arshiyask/ai-task-frontend:38159a129dbc4d8624d9f5a383a65c6b778e99e6
           ports:
             - containerPort: 3000
               name: http
